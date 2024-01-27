@@ -1,0 +1,77 @@
+<html>
+<head>
+<script type="text/javascript">
+var a
+var b
+var c
+var d
+var e
+var x=0;
+function ss1()
+{ 
+ a=1;
+   document.sa1.src='2.jpg'; 
+  }
+function ss2()
+{
+ b=1;document.sa2.src='2.jpg';
+}
+function ss3()
+{
+ 
+   c=1;document.sa3.src='2.jpg';
+  }
+function ss4()
+{
+
+    d=1;document.sa4.src='2.jpg';
+    
+
+ }
+
+function ss5()
+{
+e=1;document.sa5.src='2.jpg';
+ }  
+
+function ss()
+{
+ x=a+b+c+d+e;
+if(x==5)
+{
+window.location="next1.html"
+}
+} 
+
+function sss()
+{
+window.location="my5.html"
+}
+ 
+
+</script>
+</head>
+<body bgcolor="black">
+
+<h1>
+
+<table border="6">
+<tr >
+<td><a onclick="ss1(),ss()"><img src="" name="sa1" height="200" width="200" /></a></td>
+<td><a onclick="ss2(),ss()"><img src="" name="sa2"height="200" width="200" /></a></td>
+<td><a onclick="sss()" ><img src="" height="200" width="200"/></a></td>
+</tr>
+<tr>
+<td><a onclick="sss()" ><img src="" height="200" width="200"/></a></td>
+<td><a onclick="ss3(),ss()" ><img src="" name="sa3" height="200" width="200" /></a></td>
+<td><a onclick="sss()" ><img src="" height="200" width="200"/></a></td>
+</tr>
+<tr>
+<td><a onclick="ss4(),ss()" ><img src="" name="sa4" height="200" width="200" /></a></td>
+<td><a onclick="sss()" ><img src="" height="200" width="200"/></a></td>
+<td><a onclick="ss5(),ss()" ><img src="" name="sa5" height="200" width="200" /></a></td>
+</tr>
+</table>
+</h1>
+</body>
+</html>
